@@ -12,10 +12,11 @@ scripts beyond the page itself, no backend.
 
 ## Never do these
 
-- **Never merge into `main`, force-push, rewrite pushed history, or delete a
-  branch without Andy's go-ahead.** Otherwise the agent handles git: a branch
-  per non-trivial change, one Conventional Commit per logical change, push,
-  and a PR via `gh`.
+- **Never force-push, rewrite pushed history, or delete a branch (other than
+  a PR branch you just merged) without Andy's go-ahead.** Otherwise the agent
+  handles git: a branch per non-trivial change, one Conventional Commit per
+  logical change, push, a PR via `gh`, and merging that PR once its checks
+  pass.
 - Keep it a single self-contained `index.html` that opens straight from disk.
 
 ## Verification
