@@ -15,8 +15,8 @@ scripts beyond the page itself, no backend.
 - **Never force-push, rewrite pushed history, or delete a branch (other than
   a PR branch you just merged) without Andy's go-ahead.** Otherwise the agent
   handles git: a branch per non-trivial change, one Conventional Commit per
-  logical change, push, a PR via `gh`, and merging that PR once its checks
-  pass.
+  logical change, push, and a PR via `gh`. Andy merges into `main`: get the
+  PR green, say it's ready and move on without waiting.
 - Keep it a single self-contained `index.html` that opens straight from disk.
 
 ## Verification
